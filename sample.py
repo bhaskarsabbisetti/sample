@@ -5,5 +5,7 @@ sub(2,3)
 def add(a,b):
     print(a+b)
 add(2,3)
-=======
+def mul(a,b):
+    return a*b
+    =======
 >>>>>>> a929f94dddda5d2c3d2cb4da94fb618e6bfaad15
