@@ -1,3 +1,3 @@
-def (a,b):
+def sub(a,b):
     print(a-b)
 add(2,3)
