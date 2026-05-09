@@ -1,6 +1,7 @@
 def sub(a,b):
     print(a-b)
 sub(2,3)
+print("hello world")
 <<<<<<< HEAD
 def add(a,b):
     print(a+b)
