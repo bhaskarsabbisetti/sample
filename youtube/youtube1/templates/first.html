@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Student Search</title>
+</head>
+<body>
+
+<h2>Search Student</h2>
+
+<form method="POST">
+    {% csrf_token %}
+
+    <input name="student_name" placeholder="Enter Student Name">
+
+    <button type="submit">Search</button>
+</form>
+
+{% if student %}
+    <h3>Student Details</h3>
+
+    <p>Name: {{ student.name }}</p>
+    <p>Age: {{ student.age }}</p>
+    <p>City: {{ student.city }}</p>
+
+{% elif error %}
+    <p>{{ error }}</p>
+{% endif %}
+
+</body>
+</html>
