@@ -2,6 +2,7 @@ def sub(a,b):
     print(a-b)
 sub(2,3)
 print("hello world")
+print("welcome to git")
 <<<<<<< HEAD
 def add(a,b):
     print(a+b)
